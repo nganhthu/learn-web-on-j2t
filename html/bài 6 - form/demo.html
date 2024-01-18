@@ -6,7 +6,63 @@
 </head>
 <body>
     <form action="">
-        
+        Họ tên
+        <!--placehoder để ghi chú trong ô nhập
+        size để giới hạn ô nhập-->
+        <input type="text" placeholder="Điền tên bạn vào đây" size="10">
+        <br>
+        Số điện thoại
+        <input type="number" max="100" disabled>
+        <br>
+        <!--điền trước bằng value
+        chỉ xem không sứa sử dụng readonly-->
+        Email
+        <input type="email" value="bb@gmail.com" readonly>
+        <!--Phân biệt readonly và disable
+        readonly không cho sửa khi submit đẩy dữ liệu lên server
+        disabled cg không cho sửa nhưng khi submit thì k đẩy dữ liệu lên server-->
+        <br>
+        Mật khẩu
+        <input type="password">
+        <br>
+        <!--chung name thì mới chọn được 1 trong 2-->
+        Giới tính
+        <input type="radio" name="gender">Nam
+        <input type="radio" name="gender">Nữ
+        <!--name giống nhau thì tích chọn 1 trong 2, của 1 nhóm-->
+        <br>
+        <!--ngày sinh hiển thị theo cài đặt máy tính-->
+        Ngày Sinh
+        <input type="date">
+        <br>
+        Lớp
+        <select>
+            <option>lập trình</option>
+            <option>Quản trị</option>
+            <option>Music</option>
+        </select>
+        <br>
+        Sở thích
+        <input type="checkbox">Listen Music
+        <input type="checkbox">Read Book
+        <input type="checkbox">Dancing
+        <br>
+        <!--chỉ cho phép tải file jpg lên sử dụng accept-->
+        Ảnh đại diện
+        <input type="file" accept="image/*">
+        <br>
+        Mô tả bản thân
+        <textarea cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Đăng ký">
+        <!--Không muốn nhập nữa khôi phục lại form ban đầu-->
+        <input type="reset" value="Nhập lại">
+        <!--đi làm thường dùng button hơn-->
+        <br>    
+        <button type="submit">Đăng ký</button>
+        <button type="reset">Nhập lại</button>
+        <button type="button">nút để bấm cho vui không có use</button>
     </form>
+    <!--form ôm table-->
 </body>
 </html>
