@@ -1,0 +1,43 @@
+1. Inline html
+    css được viết thẳng vào trong thẻ html
+    eg:  <body style="background: black; color: white;">
+2. Internal html
+    css nằm trong file html nhưng không nằm trong thẻ html
+    theo quy ước của file html thì css nằm trong phần head
+    eg:  <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style type="text/css">
+            .chu_mau_do{
+                color:red;
+            }
+            .gach_chan{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+
+    </body>
+
+3. External html
+    css viết ra một file riêng và được gọi trong phần head
+    Nhúng css sang 1 file riêng
+    eg:
+    file html
+        <head>
+            <meta charset="utf-8">
+            <title></title>
+            <link rel="stylesheet" type="text/css" href="demo.css">
+        </head>
+    file css
+        .chu_mau_do{
+            color:red;
+        }
+        .gach_chan{
+            text-decoration: underline;
+        }
+
+4. Khi kết hợp Inline, Internal, External
+    --> thứ tự ưu tiên: Inline -> Internal -> External
+    Internal và External: cái nào khai báo trước được ưu tiên trước, ghi đè lên nếu cùng tên class
