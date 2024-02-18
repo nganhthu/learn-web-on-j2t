@@ -1,0 +1,129 @@
+#div_tong{
+    width: 100%;
+    height: 1400px;
+}
+
+#div_tren{
+    width: 100%;
+    height: 9%;
+}
+
+#div_tren > .trai{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+#div_tren > .phai{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+#div_tren > .phai > .tren{
+    width: 100%;
+    height: 65%;
+    text-align: right;
+}
+
+#div_tren > .phai > .duoi{
+    width: 100%;
+    height: 35%;
+    text-align: right;
+}
+
+
+
+#div_duoi{
+    width: 100%;
+    height: 90%;
+    background-color: violet;
+    border-top: 10px solid green;
+}
+
+#div_duoi > .trai{
+    width: 25%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+    border-right: 10px solid green;
+}
+
+#div_duoi > .trai > .tren{
+    width: 100%;
+    height: 60%;
+    background-color:blue;
+}
+
+#div_duoi > .trai > .duoi{
+    width: 100%;
+    height: 40%;
+    background-color: papayawhip;
+}
+
+#div_duoi > .giua{
+    width: 50%;
+    height: 100%;
+    background-color: yellowgreen;
+    float: left;
+}
+
+#div_duoi > .giua > .trai{
+    width: 10%;
+    height: 100%;
+    background-color: indianred;
+    float: left;
+}
+
+#div_duoi > .giua > .phai{
+    width: 90%;
+    height: 100%;
+    background-color: gold;
+    float: left;
+    
+}
+
+#div_duoi > .giua > .phai > .tren{
+    width: 100%;
+    height: 40%;
+    background-color: rosybrown;
+}
+
+#div_duoi > .giua > .phai > .tren > .trai{
+    width: 50%;
+    height: 100%;
+    background-color: navy;
+    float: left;
+}
+
+#div_duoi > .giua > .phai > .tren > .phai{
+    width: 50%;
+    height: 100%;
+    background-color: turquoise;
+    float: left;
+}
+
+#div_duoi > .giua > .phai > .duoi{
+    width: 100%;
+    height: 60%;
+    background-color: teal;
+}
+
+#div_duoi > .phai{
+    width: 24.34%;
+    height: 100%;
+    background-color: tomato;
+    float: left;
+}
+
+#div_duoi > .phai > .tren{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+#div_duoi > .phai > .duoi{
+    width: 100%;
+    height: 70%;
+    background-color: goldenrod;
+}
