@@ -1,6 +1,8 @@
+
+
 #div_tong{
     width: 100%;
-    height: 1400px;
+    height: 1500px;
 }
 
 #div_tren{
@@ -20,6 +22,8 @@
     float: left;
 }
 
+
+
 #div_tren > .phai > .tren{
     width: 100%;
     height: 65%;
@@ -37,48 +41,53 @@
 #div_duoi{
     width: 100%;
     height: 90%;
-    background-color: violet;
     border-top: 10px solid green;
 }
 
 #div_duoi > .trai{
     width: 25%;
     height: 100%;
-    background-color: yellow;
     float: left;
+    background-color: rgb(156, 204, 156);
     border-right: 10px solid green;
 }
 
 #div_duoi > .trai > .tren{
     width: 100%;
-    height: 60%;
-    background-color:blue;
+    height: 40%;
 }
 
 #div_duoi > .trai > .duoi{
     width: 100%;
-    height: 40%;
-    background-color: papayawhip;
+    height: 60%;
+    text-align: right;
 }
 
 #div_duoi > .giua{
     width: 50%;
     height: 100%;
-    background-color: yellowgreen;
     float: left;
+}
+
+p{
+    font-size: 30px;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: sans-serif;
 }
 
 #div_duoi > .giua > .trai{
     width: 10%;
     height: 100%;
-    background-color: indianred;
     float: left;
 }
 
 #div_duoi > .giua > .phai{
     width: 90%;
     height: 100%;
-    background-color: gold;
     float: left;
     
 }
@@ -86,44 +95,88 @@
 #div_duoi > .giua > .phai > .tren{
     width: 100%;
     height: 40%;
-    background-color: rosybrown;
 }
 
 #div_duoi > .giua > .phai > .tren > .trai{
     width: 50%;
     height: 100%;
-    background-color: navy;
     float: left;
 }
 
 #div_duoi > .giua > .phai > .tren > .phai{
     width: 50%;
     height: 100%;
-    background-color: turquoise;
     float: left;
+    text-align: left;
+}
+#div_duoi > .giua > .phai > .tren > .phai > .tren2{
+    width: 100%;
+    height: 20%;
+    float: left;
+    text-align: left;
+}
+
+#div_duoi > .giua > .phai > .tren > .phai > .duoi2{
+    width: 100%;
+    height: 80%;
+    float: left;
+    text-align: left;
 }
 
 #div_duoi > .giua > .phai > .duoi{
     width: 100%;
     height: 60%;
-    background-color: teal;
 }
 
 #div_duoi > .phai{
     width: 24.34%;
     height: 100%;
-    background-color: tomato;
     float: left;
 }
 
 #div_duoi > .phai > .tren{
     width: 100%;
-    height: 30%;
-    background-color: white;
+    height: 25%;
+    background-color: rgb(156, 204, 156);
+}
+
+#div_duoi > .phai > .tren > .tren3{
+    width: 100%;
+    height: 14%;
+    background-color: #5B8C5E;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    text-align: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: black;
+    font-size: 40px;
+}
+
+#div_duoi > .phai > .tren > .trung3{
+    width: 100%;
+    height: 10%;
+    background-color: gray;
+}
+
+#div_duoi > .phai > .tren > .giua3{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(156, 204, 156);
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#div_duoi > .phai > .tren > .duoi3{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(156, 204, 156);
 }
 
 #div_duoi > .phai > .duoi{
     width: 100%;
-    height: 70%;
-    background-color: goldenrod;
+    height: 75%;
+    text-align: center;
+    border-left: 7px dotted green;
 }
