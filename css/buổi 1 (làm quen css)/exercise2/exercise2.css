@@ -1,6 +1,6 @@
 #div_tong{
     width: 100%;
-    height: 1400px;
+    height: 580px;
     background-color: aqua;
 }
 
@@ -20,8 +20,8 @@
     color: black;
     display: inline-table;
     width: 145px;
-    height: 40px;
-    line-height: 40px;
+    height: 10px;
+    line-height: 10px;
 }
 
 #div_tren ul li a{
@@ -39,4 +39,27 @@
     width: 100%;
     height: 97%;
     background-color: brown;
+}
+
+#div_duoi > .trai{
+    width: 40%;
+    height: 100%;
+    background-color: green;
+    float: left;
+}
+
+#div_duoi > .giua{
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+}
+
+#div_duoi > .phai{
+    width: 2.6%;
+    height: 100%;
+    background-color: navy;
+    float: left;
+    text-align: right;
+    border-left: 15px solid #979A64;
 }
