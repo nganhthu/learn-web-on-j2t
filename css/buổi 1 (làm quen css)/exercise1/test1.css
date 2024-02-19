@@ -132,7 +132,7 @@ h1{
 
 #div_duoi > .phai > .tren{
     width: 100%;
-    height: 25%;
+    height: 30%;
     background-color: rgb(156, 204, 156);
 }
 
@@ -171,7 +171,7 @@ h1{
 
 #div_duoi > .phai > .duoi{
     width: 100%;
-    height: 75%;
+    height: 70%;
     text-align: center;
     border-left: 7px dotted green;
 }
