@@ -1,0 +1,42 @@
+#div_tong{
+    width: 100%;
+    height: 1400px;
+    background-color: aqua;
+}
+
+#div_tren{
+    width: 100%;
+    height: 3%;
+    background-color: blueviolet;
+}
+
+#div_tren ul {
+    background-color: #CA9DC8;
+    list-style-type: none;
+    text-align: left;
+}
+
+#div_tren ul li{
+    color: black;
+    display: inline-table;
+    width: 145px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#div_tren ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#div_tren ul li a:hover{
+    background: white;
+    color: #333;
+}
+
+#div_duoi{
+    width: 100%;
+    height: 97%;
+    background-color: brown;
+}
