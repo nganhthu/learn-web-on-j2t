@@ -110,8 +110,36 @@ h1{
     border-top: 5px dotted #996797;
 }
 
-#div_duoi > .giua12{
-    width: 16%;
+#div_duoi > .giua{
+    width: 20%;
+    height: 100%;
+    background-color: beige;
+    float: left;
+}
+
+#div_duoi > .giua > .tren{
+    width: 100%;
+    height: 5%;
+    background-color: palevioletred;
+}
+
+#div_duoi > .giua > .duoi{
+    width: 100%;
+    height: 95%;
+    background-color: olive;
+}
+
+#div_duoi > .giua > .duoi > .giua11 {
+    width: 18.4%;
+    height: 100%;
+    background-color: blue;
+    border-top: 5px dotted #996797;
+    border-right: 5px dotted #996797;
+    float: left;
+}
+
+#div_duoi > .giua > .duoi > .giua12{
+    width: 80%;
     height: 100%;
     background-color: orange;
     border-top: 5px dotted #996797;
