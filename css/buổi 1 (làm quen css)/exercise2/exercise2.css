@@ -146,21 +146,70 @@ h1{
     float: left;
 }
 
+#div_duoi > .giua > .duoi > .giua12 > .tren{
+    width: 100%;
+    height: 15%;
+    background-color: orange;
+}
 
-#div_duoi > .giua2{
-    width: 33.8%;
-    height: 100%;
-    background-color: yellowgreen;
-    border-right: 40px solid #CBCB67;
+#div_duoi > .giua > .duoi > .giua12 > .duoi{
+    width: 100%;
+    height: 85%;
+    background-color: orange;
     float: left;
 }
 
 
+#div_duoi > .giua2{
+    width: 35.8%;
+    height: 100%;
+    background-color: yellowgreen;
+    border-right: 60px solid #CBCB67;
+    float: left;
+}
+
+#div_duoi > .giua2 > .tren{
+    width: 100%;
+    height: 30%;
+    background-color: yellowgreen;
+}
+
+#div_duoi > .giua2 > .tren > .trai{
+    width: 40%;
+    height: 100%;
+    background-color: yellowgreen;
+}
+
+.buom{
+    position: absolute;
+}
+
+.hoilan{
+    position: absolute;
+}
+
+#div_duoi > .giua2 > .tren > .phai{
+    width: 60%;
+    height: 100%;
+    background-color: yellowgreen;
+}
+
+
+
+
+#div_duoi > .giua2 > .duoi{
+    width: 100%;
+    height: 70%;
+    background-color: yellowgreen;
+}
+
+
+
 #div_duoi > .phai{
-    width: 2.6%;
+    width: 1.3%;
     height: 100%;
     background-color: navy;
     float: left;
-    text-align: right;
-    border-left: 15px solid #979A64;
+    text-align: left;
+    border-left: 30px solid #979A64;
 }
