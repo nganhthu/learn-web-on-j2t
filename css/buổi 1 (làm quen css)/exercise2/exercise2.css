@@ -161,7 +161,7 @@ h1{
 
 
 #div_duoi > .giua2{
-    width: 35.8%;
+    width: 35%;
     height: 100%;
     background-color: yellowgreen;
     border-right: 60px solid #CBCB67;
@@ -178,6 +178,7 @@ h1{
     width: 40%;
     height: 100%;
     background-color: yellowgreen;
+    float: left;
 }
 
 .buom{
@@ -192,6 +193,8 @@ h1{
     width: 60%;
     height: 100%;
     background-color: yellowgreen;
+    float: left;
+    text-align: right;
 }
 
 
@@ -201,6 +204,32 @@ h1{
     width: 100%;
     height: 70%;
     background-color: yellowgreen;
+}
+
+#div_duoi > .giua2 > .duoi > .trai{
+    width: 60%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+#div_duoi > .giua2 > .duoi > .phai{
+    width: 40%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+}
+
+#div_duoi > .giua2 > .duoi > .phai > .tren{
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+}
+
+#div_duoi > .giua2 > .duoi > .phai > .duoi{
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
 }
 
 
