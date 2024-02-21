@@ -1,0 +1,8 @@
+có 3 loại position
+1. relative (cha) thường gán cho div
+2. absolute (Con) là vị trí như thế nào so với thằng relative - thường gán
+cho ảnh trong div relative
+3. fixed (cố định vị trí mặc dù cuộn lên or cuộn xuống)
+
+
+note: z-index -> làm cho không thằng nào nằm nổi bật hơn thằng nào
