@@ -1,0 +1,56 @@
+#div_tong{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+#div_trai{
+    width: 8%;
+    height: 100%;
+    float: left;
+    background-color: black;
+    position: relative;
+}
+
+#div_giua{
+    width: 1.8%;
+    height: 100%;
+    float: left;
+    background-color: blueviolet;
+    background-image: url(IMAGES/soc.jpg);
+    background-repeat: no-repeat;
+}
+
+#div_phai{
+    width: 90.2%;
+    height: 100%;
+    float: left;
+    background-image: url(IMAGES/sua1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#div_phai > .trai{
+    width: 1%;
+    height: 100%;
+    float: left;
+}
+
+#div_phai > .phai1{
+    width: 89%;
+    height: 100%;
+    float: left;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: orange;
+}
+
+#div_phai > .phai2{
+    width: 10%;
+    height: 100%;;
+    float: left;
+    text-align: right;
+}
