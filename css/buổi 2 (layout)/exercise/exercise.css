@@ -5,7 +5,7 @@
 }
 
 #div_trai{
-    width: 8%;
+    width: 20%;
     height: 100%;
     float: left;
     background-color: black;
@@ -13,7 +13,7 @@
 }
 
 #div_giua{
-    width: 1.8%;
+    width: 5%;
     height: 100%;
     float: left;
     background-color: blueviolet;
@@ -22,7 +22,7 @@
 }
 
 #div_phai{
-    width: 90.2%;
+    width: 75%;
     height: 100%;
     float: left;
     background-image: url(IMAGES/sua1.gif);
