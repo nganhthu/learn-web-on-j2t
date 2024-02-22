@@ -1,0 +1,14 @@
+pseudo & selector đều giống nhau, đều chọn 1 thẻ nào đó - nhưng cách viết lại khác nhau
+1. pseudo
+Để hiểu ý nghĩa của các pseudo-classes CSS, chúng ta cần hiểu trạng thái. Trong ngữ cảnh này,từ trạng thái có nghĩa là một tình huống hoặc điều kiện mà một cái gì đó đang ở trong một thời điểm cụ thể.
+Ví dụ như tình trạng của một đèn giao thông. Tại bất kỳ thời điểm nào nó có một trong ba trạng thái:
+
+*Trạng thái màu đỏ: Dừng
+*Trạng thái màu vàng: Tăng tốc?..ôi không! … đó là sự thận trọng
+*Và trạng thái xanh: Đi
+
+Khi chúng ta nói về “trạng thái của đèn giao thông”, chúng ta đang đề cập đến một trong ba khả năng này.
+Làm thế nào là trạng thái liên quan đến các pseudo-classes?
+
+-> Pseudo-class CSS là một tên ưa thích cho từ khóa được thêm vào bộ chọn CSS xác định trạng thái của phần
+tử HTML. Sau đó, chúng ta có thể tạo kiểu cho phần tử khi nó ở trạng thái cụ thể đó.
