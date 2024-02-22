@@ -6,7 +6,7 @@
 
 #div_tren{
     width: 100%;
-    height: 5%;
+    height: 3%;
     background-color: aqua;
 }
 
@@ -24,12 +24,12 @@
     background-color: tan;
     float: left;
     text-align: center;
-    line-height: 100px;
+    line-height: 50px;
 }
 
 #menu{
     width: 100%;
-    height: 20%;
+    height: 22%;
     background-color: brown;
 }
 
