@@ -7,21 +7,19 @@
 #div_tren{
     width: 100%;
     height: 3%;
-    background-color: aqua;
 }
 
 #div_tren  > .logo{
     width: 30%;
     height: 100%;
-    background-color: yellowgreen;
     float: left;
     text-align: center;
+    position: relative;
 }
 
 #div_tren > .search{
     width: 70%;
     height: 100%;
-    background-color: pink;
     float: left;
     text-align: center;
     line-height: 50px;
@@ -34,7 +32,7 @@ button:hover{
 #menungang{
     width: 100%;
     height: 2%;
-    background-color: cadetblue;
+    background-color: #86BC42;
     text-align: center;
 }
 
@@ -43,6 +41,8 @@ button:hover{
     display: inline-table;
     line-height: 40px;
     width: 100px;
+    background-color: #86BC42;
+    font-size: 18px;
 }
 
 a{
