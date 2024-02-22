@@ -1,0 +1,6 @@
+có hai loại display trong css
+1. inline (cùng dòng)
+Một số thẻ mặc định là inline: img, span, input, button, a,...
+2. Block (đóng thành 1 khối và xuống dòng)
+Một số thẻ măc định là block: h1, h2, h3, table, form, br, li,p, div,...
+3. Inline-table (dùng cho ul, li - menu ngang)
