@@ -5,7 +5,7 @@
 }
 
 #div_trai{
-    width: 13%;
+    width: 15%;
     height: 100%;
     float: left;
     background-color: black;
@@ -22,7 +22,7 @@
 }
 
 #div_phai{
-    width: 84%;
+    width: 82%;
     height: 100%;
     float: left;
     background-image: url(IMAGES/sua1.gif);
