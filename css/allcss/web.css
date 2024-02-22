@@ -33,25 +33,54 @@ button:hover{
     width: 100%;
     height: 2%;
     background-color: #86BC42;
+    max-width: 1200px;
+    margin: 0 auto 0;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+/*build clearfix để giải quyết float*/
+.clearfix:before, .clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menu{
+    background: #86BC42;
     text-align: center;
 }
 
-#menungang ul li{
-    list-style-type: none;
-    display: inline-table;
-    line-height: 40px;
-    width: 100px;
-    background-color: #86BC42;
-    font-size: 18px;
+/*style menu cấp 1 */
+.menu > li{
+    float: left;
+    position: relative;
 }
 
-a{
-    color: white;
+.menu > li a {
+    display: block;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #fff;
     text-decoration: none;
 }
 
-a:hover{
-    background: #537728;
+/*style menu cấp 2 */
+#menu ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background: #86BC42;
+    display: none;
+}
+
+.menu ul ul{
+    top: 0;
+    left: 100%;
 }
 
 #menudoc{
