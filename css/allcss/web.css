@@ -1,0 +1,46 @@
+#tong{
+    width: 100%;
+    height: 2000px;
+    background-color: tan;
+}
+
+#div_tren{
+    width: 100%;
+    height: 5%;
+    background-color: aqua;
+}
+
+#div_tren  > .logo{
+    width: 30%;
+    height: 100%;
+    background-color: yellowgreen;
+    float: left;
+    text-align: center;
+}
+
+#div_tren > .search{
+    width: 70%;
+    height: 100%;
+    background-color: tan;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+#menu{
+    width: 100%;
+    height: 20%;
+    background-color: brown;
+}
+
+#tintuc{
+    width: 100%;
+    height: 60%;
+    background-color: blueviolet;
+}
+
+#lienlac{
+    width: 100%;
+    height: 15%;
+    background-color: orange;
+}
