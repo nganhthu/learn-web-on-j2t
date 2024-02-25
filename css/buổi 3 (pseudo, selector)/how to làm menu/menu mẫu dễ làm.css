@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.thanh{
+    max-width: 1200px;
+    margin: 100px auto 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu{
+    background: #008000;
+    text-align: center;
+}
+
+/*Style menu cấp 1*/
+.menu > li{
+    float: left;
+}
